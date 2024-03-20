@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | PortfolioWebsite.com</title>
+    <link rel="Stylesheet" href="Stylesss.css">
+    <script src="https://kit.fontawesome.com/61119d49d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.PNG" class="logo">
+                <ul id="slidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DESIGNER</p>
+                <h1>HI,I'M <span>SHREYASHREE</span><br>MAITY FROM KOLKATA</h1>
+            </div>
+        </div>
+    </div>
+    <!-------about--------->
+    <div id="About">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/photo3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, labore quod deserunt obcaecati excepturi voluptas libero repellat voluptates nihil beatae nemo explicabo quibusdam accusamus perferendis quo id earum aliquam animi quas velit ab autem sequi. Necessitatibus quisquam ipsam aliquam nihil!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p> 
+                        <p class="tab-links" onclick = "opentab('experience')">Experience</p> 
+                        <p class="tab-links" onclick = "opentab('education')">Education</p> 
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web development</span><br>Designing web/app interface</li>
+                            <li><span>UI/UX</span><br>Designing web/app interface</li>
+                            <li><span>reactjs</span><br>Building develop web/app interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Take training at reactjs</li>
+                            <li><span>2023-2024</span><br>learned web development</li>  
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024</span><br>Studying b.tech in Academy of Technology</li>
+                            <li><span>2020</span><br>Gave 12th exam from West Bengal Board at Belgharia Mahakali Girls' High School</li>
+                            <li><span>2018</span><br>Gave 10th exam from West Bengal Board at Belgharia Mahakali Girls' High School</li>   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------Services--------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe asperiores quia autem molestiae hic quis tempora veritatis, reiciendis corporis beatae!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odio veniam dolor porro molestiae maiores commodi dolore incidunt ipsum voluptate?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>reactjs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minus quia, mollitia debitis necessitatibus facere sunt odit rerum aut amet?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div> 
+        </div>    
+    </div>
+    <!-------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work11.jpg">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work12.jpg">
+                    <div class="layer">
+                        <h3>online beauty-product web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work13.jpg">
+                    <div class="layer">
+                        <h3>portfoilion web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <P><i class="fa-solid fa-envelope"></i>shreyashreemaity6@gmail.com</P>
+                    <p><i class="fa-solid fa-phone"></i>9123315206</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/SHREYASHREE.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your Name" required>
+                        <input type="email" name="Email" placeholder="your Email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="Copyright">
+                <p>Copyright @ SHREYASHREE MAITY<i class="fa-regular fa-heart"></i>made portfolio.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) 
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var slidemen = document.getElementById("slidemenu");
+        function openmenu()
+        {
+            slidemen.style.right= "0";
+        }
+        function closemenu()
+        {
+            slidemen.style.right= "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw6o3guG6Yn8SGsGnvknTykQxxWrrGKs1vuYNAHFL17-xJb-E13LIScwC7saIO7xvQf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEven ('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000);
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
